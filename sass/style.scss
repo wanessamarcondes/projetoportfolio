@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+.carousel-banner {
+    height: 100vh;
+
+    img {
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
