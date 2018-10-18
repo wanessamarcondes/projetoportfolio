@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/style.css">
     <title>Wanessa Marcondes</title>
 </head>
 <body>
@@ -62,9 +62,70 @@
 
     <main>
         <div class="container-fluid">
-            <div class="row"></div>
+            <div class="row section-sobre">
+                <div class="col-lg-8">
+                    <h2 class="title-sobre">Sobre</h2>
+                    <div class="content-sobre">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolores facere repudiandae, id aliquid quos quibusdam velit dicta ex voluptatum a doloribus fugit alias reiciendis soluta? Eius asperiores in exercitationem!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-portfolio">
+                <div class="col-lg-8">
+                    <h2 class="title-portfolio">Portfólio</h2>
+                </div>
+            </div>
+            <div class="row content-portfolio">
+                <div class="col-lg-4 col-md-4 col-6 col-portfolio">
+                    <a href="#">
+                        <img class="img-fluid img-portfolio" src="assets/img/slidercooktell.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 col-portfolio">
+                    <a href="#">
+                        <img class="img-fluid img-portfolio" src="assets/img/slidercooktell.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 col-portfolio">
+                    <a href="#">
+                        <img class="img-fluid img-portfolio" src="assets/img/slidercooktell.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 col-portfolio">
+                    <a href="#">
+                        <img class="img-fluid img-portfolio" src="assets/img/slidercooktell.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
+
+    <footer>
+        <div class="bg-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="title-contact text-light">Contato</h2>
+                        <form class="text-light">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Assunto</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensagem</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Submit form</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
