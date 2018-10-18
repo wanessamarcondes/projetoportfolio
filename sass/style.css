@@ -3,10 +3,15 @@
           box-sizing: border-box;
 }
 
+body {
+  font-size: 10px;
+}
+
 .navbar {
   position: fixed;
   z-index: 99;
   width: 100%;
+  font-size: 1.1rem;
 }
 
 .navbar .navbar-collapse {
@@ -27,8 +32,24 @@
      object-position: center;
 }
 
+.carousel-banner .carousel-caption h5 {
+  font-size: 1.7rem;
+}
+
+.carousel-banner .carousel-caption p {
+  font-size: 1.1rem;
+}
+
+.section-sobre {
+  height: 100vh;
+}
+
 .title-sobre {
   margin: 30px 0;
+}
+
+.content-sobre {
+  font-size: 1.5rem;
 }
 
 .img-portfolio {
